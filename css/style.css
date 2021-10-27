@@ -49,4 +49,55 @@ table {
   margin: 0 auto;
   padding: 0 20px;
 }
+.header{
+  height: 100vh;
+  background: url("../image/bg.png") no-repeat center/cover;
+}
 
+.header__top{
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 50px;
+}
+.nav__items img{
+  width: 20px;
+}
+.header__menu{
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+.nav{
+  column-gap: 23px;
+  display: flex;
+}
+
+.nav__items a{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header__phone{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  width: 155px;
+}
+.header__button{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: #FF7400;
+  width: 160px;
+  height: 55px;
+}
+.header__contact{
+  display: flex;
+  padding-left: 25px;
+  border-left: 2px solid white;
+}
