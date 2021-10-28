@@ -57,14 +57,14 @@ table {
 }
 
 .header {
-
+    height: 100vh;
     background: url("../image/bg.png") no-repeat center/cover;
 }
 
 .header__top {
     display: flex;
     justify-content: space-between;
-    align-items: center;height: 100vh;
+    align-items: center;
     padding-top: 20px;
 }
 
@@ -218,9 +218,6 @@ table {
 }
 .description__3 span {
     color: #BC9060;
-}
-.header__logo img {
-    margin-top: 35px;
 }
 
 .description__2 {
@@ -427,4 +424,21 @@ table {
     justify-content: center;
 
 }
-
+.recomended{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    text-align: center;
+}
+.maxibugreg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    background: white;
+}
+.recomended img{
+    border-radius: 50%;
+}
