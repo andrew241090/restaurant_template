@@ -57,14 +57,14 @@ table {
 }
 
 .header {
-    height: 100vh;
+
     background: url("../image/bg.png") no-repeat center/cover;
 }
 
 .header__top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;height: 100vh;
     padding-top: 20px;
 }
 
@@ -405,8 +405,7 @@ table {
     Font size: 26px;
     Line height: 30px;
     Line height: 100%;
-    Align: Left;
-    Vertical align: Top;
+    Align: Left Vertical align: Top;
     Fill: Solid #000000;
 }
 .price__gamburger{
@@ -417,3 +416,15 @@ table {
     width: 250px;
     height: 150px;
 }
+
+.ourmenu{
+    font-size: 100px;
+    height: 100vh;
+    background: url("../image/bar-1869656_1920 2.png") no-repeat center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
