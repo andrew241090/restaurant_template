@@ -196,11 +196,29 @@ table {
     text-align: center;
     color: #656363;
 }
-
+.description__2 p {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
+.description__3 p {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
 .description__1 span {
     color: #BC9060;
 }
-
+.description__2 span {
+    color: #BC9060;
+}
+.description__3 span {
+    color: #BC9060;
+}
 .header__logo img {
     margin-top: 35px;
 }
@@ -308,7 +326,7 @@ table {
     align-items: center;
     text-align: center;
     column-gap: 100px;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url("../image/delicious-1866631_1920 1 (1).png") no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url("../image/delicious-1866631_1920 1 (1).png") no-repeat center/cover;
 }
 
 .oneofthebest h2 {
@@ -337,15 +355,18 @@ table {
     cursor: pointer;
 }
 
-.ourdishes h2 {
-    height: 250px;
+.dish {
+    height: 300px;
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: center;
-    Font size: 150px Line
-    height: 62px Line
-    height: 100%
+
+}
+.dish h2{
+    ont-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
 }
 
 .wrap__menu {
