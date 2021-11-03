@@ -61,8 +61,11 @@ table {
     background: url("../image/bg.png") no-repeat center/cover;
 }
 
-.header__top {
+.header__top, .dish, .prices, .price__gamburger, .ourmenu, .wrap__menu, .recomended, .maxibugreg, .firstburger, .count__members, .history, .nav, .celebrate, .menu__hamburger, .about, .header__menu, .header__middle, .header__contact, .header__title, .description__1, .description__2, .description__3 {
     display: flex;
+}
+
+.header__top {
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
@@ -73,7 +76,6 @@ table {
 }
 
 .header__menu {
-    display: flex;
     align-items: center;
     height: 70px;
     column-gap: 35px;
@@ -81,7 +83,6 @@ table {
 
 .nav {
     column-gap: 23px;
-    display: flex;
 }
 
 .nav__items a {
@@ -115,22 +116,20 @@ table {
 }
 
 .header__contact {
-    display: flex;
     align-items: center;
     column-gap: 45px;
 }
 
 .header__title {
+    max-width: 500px;
     font-weight: normal;
     color: #D67E35;
     margin-top: 203px;
-    display: flex;
     flex-direction: column;
     row-gap: 20px;
 }
 
 .header__title h2 {
-    width: 500px;
     font-size: 50px;
     line-height: 57px;
     margin-left: 24px;
@@ -167,21 +166,6 @@ table {
 .header__main_button {
     margin-left: 135px;
 }
-
-.description__1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 20px;
-    width: 350px;
-    height: 330px;
-    position: relative;
-    bottom: 100px;
-    background: #FFFFFF;
-    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
-
-}
-
 .description__1 h3 {
     font-weight: normal;
     font-size: 26px;
@@ -189,39 +173,22 @@ table {
     color: #2C2C2C;
 }
 
-.description__1 p {
+.description__1,  .description__2, .description__3 p {
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
     text-align: center;
     color: #656363;
 }
-.description__2 p {
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
-    color: #656363;
-}
-.description__3 p {
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    text-align: center;
-    color: #656363;
-}
-.description__1 span {
-    color: #BC9060;
-}
-.description__2 span {
-    color: #BC9060;
-}
-.description__3 span {
+.orange-text {
     color: #BC9060;
 }
 
-.description__2 {
-    display: flex;
+.header__logo img {
+    margin-top: 35px;
+}
+
+.description__1, .description__2, .description__3{
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
@@ -232,40 +199,18 @@ table {
     background: #FFFFFF;
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
 }
-
-.description__3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 20px;
-    width: 350px;
-    height: 330px;
-    position: relative;
-    bottom: 100px;
-    background: #FFFFFF;
-    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
-}
-
 
 .header__middle {
     position: relative;
-    display: flex;
     justify-content: space-evenly;
 }
-
-.about {
-    display: flex;
-}
-
 .history {
-    display: flex;
     flex-direction: column;
     column-gap: 30px;
     align-items: center;
 }
 
 .count__members {
-    display: flex;
     text-align: center;
     column-gap: 20px;
 }
@@ -286,8 +231,7 @@ table {
     color: #656363
 }
 
-
-.member1 {
+.member1 .member2 .member3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -299,31 +243,14 @@ table {
     color: #BC9060;
 }
 
-.member2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100px;
-    text-align: center;
-}
-
-.member3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100px;
-    text-align: center;
-}
-
 .celebrate {
     padding: 80px;
     height: 300px;
-    display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
     column-gap: 100px;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url("../image/delicious-1866631_1920 1 (1).png") no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../image/delicious-1866631_1920 1 (1).png") no-repeat center/cover;
 }
 
 .oneofthebest h2 {
@@ -354,24 +281,17 @@ table {
 
 .dish {
     height: 300px;
-    display: flex;
     align-items: center;
     justify-content: center;
-
 }
-.dish h2{
-    ont-weight: normal;
+.dish h2 {
+    font-weight: normal;
     font-size: 52px;
     line-height: 60px;
-    color: #D67E34;
 }
-
+!
 .wrap__menu {
-    display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    column-gap: 100px;
 }
 
 .pizza {
@@ -380,7 +300,6 @@ table {
 }
 
 .menu__hamburger {
-    display: flex;
     flex-direction: column;
     align-items: center;
 
@@ -389,56 +308,73 @@ table {
 .hamburger {
     width: 150px;
     height: 150px;
-
-
 }
+
 .prices {
-    display: flex;
+    padding-left: -20px;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.price__gamburger h2{
-    Font size: 26px;
-    Line height: 30px;
-    Line height: 100%;
-    Align: Left Vertical align: Top;
-    Fill: Solid #000000;
+
+.price__gamburger h2 {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
 }
-.price__gamburger{
+
+.price__gamburger {
     padding-right: 100px;
     align-items: center;
-    display: flex;
     justify-content: space-between;
-    width: 250px;
+    width: 350px;
     height: 150px;
 }
 
-.ourmenu{
+.ourmenu {
+    margin-top: 100px;
     font-size: 100px;
     height: 100vh;
     background: url("../image/bar-1869656_1920 2.png") no-repeat center/cover;
     color: white;
-    display: flex;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-around;
+    flex-direction: column;
 }
-.recomended{
-    display: flex;
+
+.recomended {
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     column-gap: 30px;
-    text-align: center;
 }
-.maxibugreg{
-    display: flex;
+
+.maxibugreg {
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    position: center;
     width: 300px;
     height: 500px;
     background: white;
 }
-.recomended img{
+
+.firstburger img {
     border-radius: 50%;
+}
+
+.firstburger {
+    flex-direction: row;
+    column-gap: 50px;
+}
+.nav__btn_mobile{
+    display: none;
+    flex-direction: column;
+    width: 30px;
+    row-gap: 4px;
+}
+.nav__btn_mobile div{
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
 }
