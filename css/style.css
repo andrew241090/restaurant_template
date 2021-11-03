@@ -119,9 +119,10 @@ table {
     align-items: center;
     column-gap: 45px;
 }
-
 .header__title {
-    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-weight: normal;
     color: #D67E35;
     margin-top: 203px;
@@ -130,17 +131,19 @@ table {
 }
 
 .header__title h2 {
+    font-weight: normal;
     font-size: 50px;
     line-height: 57px;
-    margin-left: 24px;
-
+    color: #D67E35;
 }
 
 .header__title h1 {
     font-size: 80px;
     line-height: 92px;
 }
-
+.header__button{
+    margin-left: 150px;
+}
 .header__title p {
     font-size: 18px;
     line-height: 25px;
@@ -163,9 +166,6 @@ table {
     margin-left: 5px;
 }
 
-.header__main_button {
-    margin-left: 135px;
-}
 .description__1 h3 {
     font-weight: normal;
     font-size: 26px;
@@ -203,6 +203,7 @@ table {
 .header__middle {
     position: relative;
     justify-content: space-evenly;
+    align-items: center;
 }
 .history {
     flex-direction: column;
@@ -238,7 +239,12 @@ table {
     width: 100px;
     text-align: center;
 }
-
+.photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
 .count__members h1 {
     color: #BC9060;
 }
@@ -289,7 +295,6 @@ table {
     font-size: 52px;
     line-height: 60px;
 }
-!
 .wrap__menu {
     justify-content: space-evenly;
 }
@@ -313,8 +318,7 @@ table {
 .prices {
     padding-left: -20px;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+
 }
 
 .price__gamburger h2 {
@@ -333,6 +337,7 @@ table {
 }
 
 .ourmenu {
+    display: flex;
     margin-top: 100px;
     font-size: 100px;
     height: 100vh;
