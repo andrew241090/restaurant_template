@@ -61,14 +61,15 @@ table {
     background: url("../image/bg.png") no-repeat center/cover;
 }
 
-.header__top, .dish, .prices, .price__gamburger, .ourmenu, .wrap__menu, .recomended, .maxibugreg, .firstburger, .count__members, .history, .nav, .celebrate, .menu__hamburger, .about, .header__menu, .header__middle, .header__contact, .header__title, .description__1, .description__2, .description__3 {
+.dish, .prices, .price__gamburger, .ourmenu, .wrap__menu, .recomended, .maxibugreg, .firstburger, .count__members, .history, .nav, .celebrate, .menu__hamburger, .about, .header__menu, .header__middle, .header__title, .description__1, .description__2, .description__3 {
     display: flex;
 }
 
 .header__top {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 35px;
 }
 
 .nav__items img {
@@ -116,8 +117,8 @@ table {
 }
 
 .header__contact {
+    display: flex;
     align-items: center;
-    column-gap: 45px;
 }
 .header__title {
     display: flex;
@@ -142,7 +143,7 @@ table {
     line-height: 92px;
 }
 .header__button{
-    margin-left: 150px;
+    margin-left: 50px;
 }
 .header__title p {
     font-size: 18px;
@@ -185,7 +186,7 @@ table {
 }
 
 .header__logo img {
-    margin-top: 35px;
+
 }
 
 .description__1, .description__2, .description__3{
