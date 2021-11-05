@@ -55,18 +55,16 @@ table {
     margin: 0 auto;
     padding: 0 20px;
 }
-
 .header {
     height: 100vh;
     background: url("../image/bg.png") no-repeat center/cover;
 }
-
-.dish, .prices, .price__gamburger, .ourmenu, .wrap__menu, .recomended, .maxibugreg, .firstburger, .count__members, .history, .nav, .celebrate, .menu__hamburger, .about, .header__menu, .header__middle, .header__title, .description__1, .description__2, .description__3 {
+.dish, .prices, .photos, .header__contact , .welcome, .header__top, .price__gamburger, .ourmenu, .wrap__menu, .recomended, .maxibugreg, .firstburger, .count__members, .history, .nav, .celebrate, .menu__hamburger, .about, .header__menu, .header__middle, .header__title, .description__1, .description__2, .description__3 {
     display: flex;
+    align-items: center;
 }
 
 .header__top {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 35px;
@@ -75,17 +73,14 @@ table {
 .nav__items img {
     width: 20px;
 }
-
 .header__menu {
     align-items: center;
     height: 70px;
     column-gap: 35px;
 }
-
 .nav {
     column-gap: 23px;
 }
-
 .nav__items a {
     font-weight: bold;
     font-size: 14px;
@@ -93,7 +88,6 @@ table {
     color: #FFFFFF;
     text-decoration: none;
 }
-
 .header__phone {
     font-weight: bold;
     font-size: 18px;
@@ -104,7 +98,6 @@ table {
     border-left: 2px solid #fff;
     padding-left: 15px;
 }
-
 .header__button {
     font-weight: bold;
     font-size: 14px;
@@ -114,11 +107,6 @@ table {
     height: 55px;
     border: none;
     cursor: pointer;
-}
-
-.header__contact {
-    display: flex;
-    align-items: center;
 }
 .header__title {
     display: flex;
@@ -130,14 +118,12 @@ table {
     flex-direction: column;
     row-gap: 20px;
 }
-
 .header__title h2 {
     font-weight: normal;
     font-size: 50px;
     line-height: 57px;
     color: #D67E35;
 }
-
 .header__title h1 {
     font-size: 80px;
     line-height: 92px;
@@ -154,7 +140,6 @@ table {
     align-items: center;
     margin-left: 68px;
 }
-
 .header__title p::before,
 .header__title p::after {
     content: "";
@@ -166,15 +151,13 @@ table {
     margin-right: 5px;
     margin-left: 5px;
 }
-
 .description__1 h3 {
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
     color: #2C2C2C;
 }
-
-.description__1,  .description__2, .description__3 p {
+.description__1, .description__2, .description__3 p {
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
@@ -184,11 +167,6 @@ table {
 .orange-text {
     color: #BC9060;
 }
-
-.header__logo img {
-
-}
-
 .description__1, .description__2, .description__3{
     flex-direction: column;
     align-items: center;
@@ -200,30 +178,30 @@ table {
     background: #FFFFFF;
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
 }
-
 .header__middle {
     position: relative;
     justify-content: space-evenly;
     align-items: center;
+}
+.welcome{
+    flex-direction: column;
 }
 .history {
     flex-direction: column;
     column-gap: 30px;
     align-items: center;
 }
-
 .count__members {
+    display: flex;
     text-align: center;
     column-gap: 20px;
 }
-
 .history h1 {
     font-weight: normal;
     font-size: 54px;
     line-height: 62px;
     color: #000000;
 }
-
 .history p {
     padding: 20px 150px;
     font-weight: normal;
@@ -232,17 +210,10 @@ table {
     text-align: center;
     color: #656363
 }
-
 .member1 .member2 .member3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100px;
-    text-align: center;
+    width: 50px;
 }
 .photos{
-    display: flex;
-    align-items: center;
     justify-content: center;
     box-sizing: border-box;
 }
@@ -285,7 +256,6 @@ table {
     border: none;
     cursor: pointer;
 }
-
 .dish {
     height: 300px;
     align-items: center;
@@ -336,7 +306,6 @@ table {
     width: 350px;
     height: 150px;
 }
-
 .ourmenu {
     display: flex;
     margin-top: 100px;
